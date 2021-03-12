@@ -6,6 +6,10 @@ function great(a,b) {
   if (a > b) {
     return 1;
   }
+
+  if (a <= b) {
+    return -1;
+  }
 }
  
 // Сортировка по убыванию 
@@ -13,6 +17,10 @@ function great(a,b) {
 function less(a,b) {
   if (a < b) {
     return 1;
+  }
+
+  if (a >= b) {
+    return -1;
   }
 }
  
